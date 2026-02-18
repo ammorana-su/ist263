@@ -2,12 +2,16 @@ body {
     font-family: Garamond, "Apple Garamond", serif;
 }
 
+table, th, td {
+    border: 1px solid black;
+}
+
 h1, h2 {
     color: navy;
 }
 
 .evenrow {
-    background-color:lightblue;
+    background-color: lightblue;
 }
 
 h1 {
