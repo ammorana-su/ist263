@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>CSS colors </title>
+        <style>
+            h1 {color:#ff9900;}
+            p :hover {color:#035555;}
+            body{background-color:#fd9800}
+            body {background-image: url("otto.png");}
+            https://peopel-su.github.io/ist263/images/otto.png

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Syracuse Page</title>
+    <style>
+        body {
+            background-image: url("https://peopel-su.github.io/ist263/images/otto.png");
+            background-color: #fd9800;
+        }
+        p {
+            border: 5px solid #000e54;
+            padding: 10px;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <p>I bleed orange.</p>
+
+</body>
+</html>
