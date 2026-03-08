@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Anthony Morana</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a> | 
+        <a href="skills.html">Skills</a> | 
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="contact-row">
+        <div class="contact-col">
+            <h1>Contact Info</h1>
+            <p><strong>Anthony Matthew Morana</strong></p>
+            <p>919 E Genesse St, Syracuse, NY 13210</p>
+        </div>
+        
+        <div class="contact-col">
+            <p><a href="mailto:ammorana@syr.edu">Anthony Morana Email</a></p> 
+            <h2>My LinkedIn Profile</h2>
+            <a href="https://www.linkedin.com/in/anthony-morana-bb0152250" target="_blank">
+                <img src="../images/linkedinlogo.png" alt="LinkedIn Logo" width="120">
+                <br> Visit LinkedIn
+            </a>
+        </div>
+    </div>
+
+    <div class="contact-row">
+        <div class="contact-col">
+            <h1>Form</h1>
+            <form action="https://formspree.io/f/mwvnekpq" method="POST">
+                <label for="uskill">Your favorite skill: </label><br>
+                <input type="text" id="uskill" name="uskill"><br><br>
+                
+                <label for="comments">Comments: </label><br>
+                <textarea id="comments" name="comments"></textarea>
+
+                <p>Rate your proficiency:</p>
+                <input type="radio" id="novice" name="proficiency" value="3">
+                <label for="novice">Novice</label><br>  
+                
+                <input type="radio" id="adept" name="proficiency" value="5">
+                <label for="adept">Adept</label><br>
+                
+                <input type="radio" id="expert" name="proficiency" value="7">
+                <label for="expert">Expert</label><br>
+                
+                <input type="radio" id="master" name="proficiency" value="10">
+                <label for="master">Master</label><br><br>
+
+                <input type="submit" value="Send">
+            </form>
+        </div>
+
+        <div class="contact-col map-container">
+            <h3>Location</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2915.683637494451!2d-76.1384351!3d43.0480436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f3b79412176b%3A0x6299f0e8f7035624!2s919%20E%20Genesee%20St%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+</body>
+</html>

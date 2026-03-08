@@ -1,0 +1,65 @@
+body {
+    font-family: Garamond, "Apple Garamond", serif;
+    background-color: #F8F5F2; 
+    color: #232946;            
+}
+
+a {
+    color: #7180AC;            
+}
+
+table, th, td {
+    border: 1px solid #232946; 
+}
+
+h1, h2 {
+    color: #2D334A;     
+}
+
+.evenrow {
+    background-color: #E8E4E1; 
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+nav {
+    background-color: #E8E4E1;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+nav a {
+    color: #232946;
+}
+
+nav a:hover {
+    background-color: #869D7A;
+}
+
+.motto {
+    float: right;
+}
+
+
+.contact-row {
+    display: flex; 
+    margin: 20px; 
+    gap: 20px; 
+}
+
+.contact-col {
+    flex: 1; 
+    background-color: #ffffff; 
+    padding: 20px; 
+    border-radius: 1em; 
+}
+
+.map-container iframe {
+    width: 100%; 
+}
