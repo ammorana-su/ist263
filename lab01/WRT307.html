@@ -8,40 +8,43 @@
         body {
             font-family: 'Times New Roman', Times, serif;
             background-color: white;
-            margin: 20px;
+            margin: 30px;
             display: flex;
             justify-content: flex-start;
         }
 
         table {
-            width: 450px; /* Forces a "skinny" horizontal profile */
+            /* Adjusted to match the SoundCloud icon alignment in your browser */
+            width: 1000px; 
             border-collapse: collapse;
-            font-size: 18px; /* Keeps text large and legible */
+            font-size: 19px; 
             border: 2px solid #333;
+            box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
         }
 
         caption {
-            font-size: 22px;
+            font-size: 24px;
             font-weight: bold;
-            padding-bottom: 12px;
+            padding-bottom: 15px;
             color: #000E54; /* Syracuse Blue */
-            text-align: center;
+            text-align: left;
         }
 
         th {
             background-color: #F76900; /* Syracuse Orange */
             color: white;
-            padding: 25px 10px; /* Massive vertical padding to make it "longer" */
+            padding: 22px 15px; /* High vertical padding for that "longer" look */
             text-align: center;
-            border-bottom: 2px solid #333;
+            border-bottom: 3px solid #333;
             text-transform: uppercase;
+            letter-spacing: 1px;
         }
 
         td {
-            padding: 20px 15px; /* High vertical padding for each row */
-            border-bottom: 1px solid #999;
+            padding: 18px 20px; /* Balanced padding for a professional feel */
+            border-bottom: 1px solid #ccc;
             text-align: left;
-            line-height: 1.3;
+            line-height: 1.2;
         }
 
         .evenrow {
@@ -49,7 +52,7 @@
         }
 
         .task-num {
-            width: 40px;
+            width: 50px;
             text-align: center;
             font-weight: bold;
             color: #F76900;
@@ -58,74 +61,40 @@
         .date-col {
             font-weight: bold;
             text-align: right;
-            color: #666;
-            font-size: 16px;
+            color: #444;
+            width: 140px;
         }
     </style>
 </head>
 
 <body>
     <table>
-        <caption>Project Timeline</caption>
+        <caption>Project Timeline: Traffic Safety Dashboard</caption>
         <thead>
             <tr>
-                <th colspan="2">Task & Deliverable</th>
-                <th>Target Date</th>
+                <th class="task-num">#</th>
+                <th>Task & Deliverable</th>
+                <th class="date-col">Target Date</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td class="task-num">1</td>
                 <td>Topic Approval & Initial Research</td>
-                <td class="date-col">Feb 25</td>
+                <td class="date-col">Feb 25, 2026</td>
             </tr>
             <tr class="evenrow">
                 <td class="task-num">2</td>
                 <td>Source Selection & Initial Drafting</td>
-                <td class="date-col">Mar 02</td>
+                <td class="date-col">Mar 02, 2026</td>
             </tr>
             <tr>
                 <td class="task-num">3</td>
-                <td>eSurvey Distribution (Psi U Chat)</td>
-                <td class="date-col">Mar 10</td>
+                <td>eSurvey Distribution (Psi U GroupChat)</td>
+                <td class="date-col">Mar 10, 2026</td>
             </tr>
             <tr class="evenrow">
                 <td class="task-num">4</td>
                 <td>Interview: Officer Conor Maloney</td>
-                <td class="date-col">Mar 12</td>
+                <td class="date-col">Mar 12, 2026</td>
             </tr>
-            <tr>
-                <td class="task-num">5</td>
-                <td>Annotated Bibliographies Due</td>
-                <td class="date-col">Mar 15</td>
-            </tr>
-            <tr class="evenrow">
-                <td class="task-num">6</td>
-                <td>Peer Review Session</td>
-                <td class="date-col">Mar 18</td>
-            </tr>
-            <tr>
-                <td class="task-num">7</td>
-                <td>Analyze Survey & Interview Data</td>
-                <td class="date-col">Mar 20</td>
-            </tr>
-            <tr class="evenrow">
-                <td class="task-num">8</td>
-                <td>Final Proposal Submission</td>
-                <td class="date-col">Mar 22</td>
-            </tr>
-            <tr>
-                <td class="task-num">9</td>
-                <td>Draft Formal Report (Unit 4)</td>
-                <td class="date-col">Apr 10</td>
-            </tr>
-            <tr class="evenrow">
-                <td class="task-num">10</td>
-                <td>Final Audio Presentation (Unit 5)</td>
-                <td class="date-col">Apr 30</td>
-            </tr>
-        </tbody>
-    </table>
-</body>
-
-</html>
