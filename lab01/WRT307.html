@@ -3,25 +3,27 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Final Project Timeline - Anthony Morana</title>
+    <title>Project Timeline - Anthony Morana</title>
     <style>
         body {
             font-family: 'Times New Roman', Times, serif;
             background-color: white;
             margin: 30px;
+            display: flex;
+            justify-content: flex-start;
         }
 
         table {
-            /* Width set to 920px to reach the SoundCloud icon as requested */
-            width: 920px; 
+            /* Width bumped to 880px for that clean, wide horizontal look */
+            width: 880px; 
             border-collapse: collapse;
             font-size: 19px; 
             border: 2px solid #333;
-            box-shadow: 6px 6px 20px rgba(0,0,0,0.1);
+            box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
         }
 
         caption {
-            font-size: 26px;
+            font-size: 24px;
             font-weight: bold;
             padding-bottom: 15px;
             color: #000E54; /* Syracuse Blue */
@@ -31,16 +33,19 @@
         th {
             background-color: #F76900; /* Syracuse Orange */
             color: white;
-            padding: 20px 15px; 
+            padding: 22px 15px; 
             text-align: center;
             border-bottom: 3px solid #333;
             text-transform: uppercase;
+            letter-spacing: 1px;
         }
 
         td {
-            padding: 18px 25px; /* Adjusted to 18px to help all 10 rows fit on your screen */
-            border-bottom: 1px solid #ccc;
+            /* Adjusted to 18px to ensure all 10 rows fit on your screen at once */
+            padding: 18px 20px; 
+            border-bottom: 1px solid #999;
             text-align: left;
+            line-height: 1.2;
         }
 
         .evenrow {
@@ -48,7 +53,7 @@
         }
 
         .task-num {
-            width: 60px;
+            width: 50px;
             text-align: center;
             font-weight: bold;
             color: #F76900;
@@ -58,7 +63,7 @@
             font-weight: bold;
             text-align: right;
             color: #444;
-            width: 170px;
+            width: 150px;
         }
     </style>
 </head>
@@ -68,9 +73,8 @@
         <caption>Project Timeline: Traffic Safety Dashboard</caption>
         <thead>
             <tr>
-                <th class="task-num">#</th>
-                <th>Task & Deliverable</th>
-                <th class="date-col">Target Date</th>
+                <th colspan="2">Task & Deliverable</th>
+                <th>Target Date</th>
             </tr>
         </thead>
         <tbody>
@@ -86,24 +90,11 @@
             </tr>
             <tr>
                 <td class="task-num">3</td>
-                <td>eSurvey Distribution (Psi U GroupChat)</td>
+                <td>eSurvey Distribution (Psi U Chat)</td>
                 <td class="date-col">Mar 10, 2026</td>
             </tr>
             <tr class="evenrow">
                 <td class="task-num">4</td>
-                <td>Interview: Officer Conor Maloney (Hercules Gym)</td>
+                <td>Interview: Officer Conor Maloney</td>
                 <td class="date-col">Mar 12, 2026</td>
             </tr>
-            <tr>
-                <td class="task-num">5</td>
-                <td>Annotated Bibliographies Completed</td>
-                <td class="date-col">Mar 15, 2026</td>
-            </tr>
-            <tr class="evenrow">
-                <td class="task-num">6</td>
-                <td>Peer Review of Proposal Draft</td>
-                <td class="date-col">Mar 18, 2026</td>
-            </tr>
-            <tr>
-                <td class="task-num">7</td>
-                <td>Analyze Survey (N=37) & Interview
