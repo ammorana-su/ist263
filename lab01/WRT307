@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Project Timeline - Anthony Morana</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            line-height: 1.15;
+            color: #333;
+            margin: 40px;
+        }
+
+        nav {
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #F76900; /* Syracuse Orange */
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #000E54; /* Syracuse Blue for contrast */
+        }
+
+        th {
+            background-color: #F76900; /* Syracuse Orange */
+            color: white;
+            padding: 12px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+
+        td {
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+
+        .evenrow {
+            background-color: #fff5eb; /* Very light orange tint */
+        }
+
+        tr:hover {
+            background-color: #fce4d6; /* Hover effect */
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">Home</a> | 
+        <a href="skills.html">Skills</a> | 
+        <a href="contact.html">Contact</a> |
+        <a href="proposal.html">Proposal</a>
+    </nav>
+
+    <table>
+        <caption>Project Timeline: Traffic Safety Dashboard</caption>
+        <tr>
+            <th>Task Number</th>
+            <th>Project Task / Deliverable</th>
+            <th>Responsible Party</th>
+            <th>Target Date (2026)</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Topic Approval & Initial Research</td>
+            <td>Anthony Morana</td>
+            <td>Feb 25</td>
+        </tr>
+        <tr class="evenrow">
+            <td>2</td>
+            <td>Source Selection & Initial Drafting</td>
+            <td>Anthony Morana</td>
+            <td>Mar 02</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>eSurvey Distribution (Psi U GroupChat)</td>
+            <td>Anthony Morana</td>
+            <td>Mar 10</td>
+        </tr>
+        <tr class="evenrow">
+            <td>4</td>
+            <td>Interview with Officer Conor Maloney (Hercules Gym)</td>
+            <td>Anthony Morana</td>
+            <td>Mar 12</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Annotated Bibliographies Completed</td>
+            <td>Anthony Morana</td>
+            <td>Mar 15</td>
+        </tr>
+        <tr class="evenrow">
+            <td>6</td>
+            <td>Peer Review of Proposal Draft</td>
+            <td>Anthony & Peers</td>
+            <td>Mar 18</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Analyze Survey (N=37) & Interview Data</td>
+            <td>Anthony Morana</td>
+            <td>Mar 20</td>
+        </tr>
+        <tr class="evenrow">
+            <td>8</td>
+            <td>Final Polished Proposal Submission</td>
+            <td>Anthony Morana</td>
+            <td>Mar 22</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>Draft Formal Report (Unit 4)</td>
+            <td>Anthony Morana</td>
+            <td>Apr 10</td>
+        </tr>
+        <tr class="evenrow">
+            <td>10</td>
+            <td>Final Audio Presentation (Unit 5)</td>
+            <td>Anthony Morana</td>
+            <td>Apr 30</td>
+        </tr>
+    </table>
+</body>
+
+</html>
