@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 12</title>
+    <style>
+        #lastheader {display:none;}
+    </style>
+    <script>
+        function change () {
+            document.getElementByID("arrow").setAttribute("src", "https://peopel-su.github.io/ist263/images/arrow_over.png")
+        }
+        function changeBack () {
+            document.getElementByID("arrow").setAttribute("src", "https://peopel-su.github.io/ist263/images/arrow_over.png")
+        }
+        function wrongAnswer() {
+            document.getElementByID("wrong").innerHTML = "Wrong Answer" = "<span style='color: red;>Wrong Answer!</span>"
+        }
+        function rightAnswer() {
+            document.getElementByID("correct").innerHTML = "Correct Answer" = "Right Answer" = "<span style='color: green;>Correct Answer!</span>"
+        }
+        function bluey() {
+            doucment.getElementByID("bluetext").style.color = "#00000FF";
+            doucment.getElementByID("bluetext").style.border = "#00000FF" = "solid 2px #FF00FF";
+        }
+        function hideHead () {
+            document.getElementById("firstheader").style.display = "none";
+            document.getElementById("lastheader").style.display = "block"
+        }
+        function showFirst () {
+            document.getElementById("firstheader").style.display = "block";
+            document.getElementById("lastheader").style.display = "none"
+        }
+    </script>
+    </head>
+    <body>
+    <h1>Image Rollovers</h1>
+    <img id="arrow" src="https://peopel-su.github.io/ist263/images/arrow.png" alt="'arrow icon" onmouseover="change()" onmouseout="changeBack()">
+
+    <h1 id="bluetext" onclick="bluey()">My Javascript Quiz</h1>
+    <p>Java and JavaScript are the same thing.</p>
+    <p onclick="wrongAnswer()" id="wrong">True</p>
+    <p onclick="rightAnswer()" id="correct">False</p>
+    
+    <h1 id="firstheader" onclick="hideFirst()">The Last Header</h1>
+    <h1 id="lastheader" onclick="showFirst()"></h1>The Last Header</h1>
+
+</body>
+</html>
